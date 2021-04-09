@@ -151,7 +151,7 @@ export default function FriendScreen({ navigation }) {
       // console.log(distance, "extra meter")
       // console.log("userId: ", data[x].userId);
 
-      if (distance <= 100) {
+      if (distance <= 6000) {
         console.log(distance, "meter");
         console.log("userId: ", data[x].userId);
         console.log(name)
